@@ -1,6 +1,6 @@
 import './App.css';
 import freeCodeCampLogo from './images/freecodecamp_logo.png'
-import TaskForm from './components/TaskForm';
+import TaskList from './components/TasksList';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className='task-list-principal'>
           <h1>My Tasks</h1>
-        <TaskForm />
+        <TaskList />
       </div>
 
     </div>
