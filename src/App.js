@@ -1,6 +1,6 @@
 import './App.css';
 import freeCodeCampLogo from './images/freecodecamp_logo.png'
-import Task from './components/Task.js'
+import TaskForm from './components/TaskForm';
 
 function App() {
   return (
@@ -10,10 +10,9 @@ function App() {
           src={freeCodeCampLogo} alt='this is a logo'
           className='freecodecamp-logo' />
       </div>
-
       <div className='task-list-principal'>
           <h1>My Tasks</h1>
-          <Task text='Aprender React'/>
+        <TaskForm />
       </div>
 
     </div>
