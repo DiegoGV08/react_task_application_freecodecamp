@@ -11,7 +11,7 @@ function App() {
           className='freecodecamp-logo' />
       </div>
       <div className='task-list-principal'>
-          <h1>My Tasks</h1>
+          <h1>Tasks Manager</h1>
         <TaskList />
       </div>
 
